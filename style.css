@@ -15,25 +15,32 @@
 
 body {
     background-color: var(--cream);
+    font-size: 87.5%;
 }
 
 button {
     background-color: var(--dark-cyan);
     color: var(--white);
+    padding: 10px 20px;
 }
 
 h2 {
     color: var(--very-dark-blue);
     font-family: 'Fraunces', serif;
+    font-weight: 700;
 }
 
 main {
     align-items: center;
     color: var(--dark-gray-blue);
     display: flex;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
     justify-content: center;
     height: 100vh;
+}
+
+img {
+    border-radius: 12px 0 0 12px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
@@ -41,8 +48,11 @@ main {
 
 .card {
     background-color: var(--white);
+    border-radius: 12px;
     display: grid;
     grid-template-columns: 400px auto;
+    height: 100%;
+    max-height: 562.5px;
 }
 
 .card-info {
@@ -56,6 +66,16 @@ main {
 
 .description-header {
     text-transform: uppercase;
+}
+
+.product-pricing p:first-of-type {
+    color: var(--dark-cyan);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.product-pricing p:last-of-type {
+    text-decoration: line-through;
 }
 
 .sr-only {
