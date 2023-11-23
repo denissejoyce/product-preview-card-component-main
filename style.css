@@ -10,9 +10,21 @@ body {
     background-color: var(--cream);
 }
 
+button {
+    background-color: var(--dark-cyan);
+    color: var(--white);
+}
+
+h2 {
+    color: var(--very-dark-blue);
+    font-family: 'Fraunces', serif;
+}
+
 main {
     align-items: center;
+    color: var(--dark-gray-blue);
     display: flex;
+    font-family: 'Montserrat', sans-serif;;
     justify-content: center;
     height: 100vh;
 }
@@ -23,7 +35,20 @@ main {
 .card {
     background-color: var(--white);
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 400px auto;
+}
+
+.card-info {
+    padding: 10px;
+}
+
+.description {
+    max-width: 350px;
+    width: 100%;
+}
+
+.description-header {
+    text-transform: uppercase;
 }
 
 .sr-only {
