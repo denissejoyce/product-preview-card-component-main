@@ -60,6 +60,11 @@ img {
     max-height: 525px;
 }
 
+.card:hover {
+    box-shadow: 1px 1px 50px -8px var(--dark-gray-blue);
+    transition: 0.5s ease-in-out; 
+}
+
 .card-info {
     padding: 50px 30px 50px 10px;
 }
