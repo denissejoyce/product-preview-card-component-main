@@ -20,8 +20,14 @@ body {
 
 button {
     background-color: var(--dark-cyan);
+    border-radius: 6px;
     color: var(--white);
     padding: 10px 20px;
+    width: 100%;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 main {
