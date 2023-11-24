@@ -72,6 +72,7 @@ img {
 .product-pricing p:first-of-type {
     color: var(--dark-cyan);
     font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
     font-weight: 700;
     width: max-content;
 }
