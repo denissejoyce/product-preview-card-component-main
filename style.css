@@ -24,12 +24,6 @@ button {
     padding: 10px 20px;
 }
 
-h2 {
-    color: var(--very-dark-blue);
-    font-family: 'Fraunces', serif;
-    font-weight: 700;
-}
-
 main {
     align-items: center;
     color: var(--dark-gray-blue);
@@ -64,10 +58,6 @@ img {
     width: 100%;
 }
 
-.description-header {
-    text-transform: uppercase;
-}
-
 .product-pricing p:first-of-type {
     color: var(--dark-cyan);
     font-family: 'Fraunces', serif;
@@ -76,6 +66,26 @@ img {
 
 .product-pricing p:last-of-type {
     text-decoration: line-through;
+}
+
+.product-description-flex {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.product-description-flex span:first-of-type {
+    color: var(--very-dark-blue);
+    font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    max-width: 350px;
+    width: 100%;
+}
+
+.product-description-flex span:last-of-type {
+    font-size: .8rem;
+    font-weight: lighter;
+    text-transform: uppercase;
 }
 
 .sr-only {
