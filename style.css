@@ -50,16 +50,22 @@ img {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 .card {
+    align-items: center;
     background-color: var(--white);
     border-radius: 12px;
     display: grid;
-    grid-template-columns: 400px auto;
+    grid-template-columns: 375px auto;
     height: 100%;
+    justify-content: center;
     max-height: 525px;
 }
 
 .card-info {
     padding: 50px 30px 50px 10px;
+}
+
+.card-info, .card-img {
+    max-height: 525px;
 }
 
 .description {
@@ -70,8 +76,9 @@ img {
 }
 
 .product-pricing {
+    align-items: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: max-content auto;
     padding-bottom: 25px;
 }
 
@@ -84,6 +91,7 @@ img {
 }
 
 .product-pricing p:last-of-type {
+    padding-left: 15px;
     text-decoration: line-through;
     width: max-content;
 }
