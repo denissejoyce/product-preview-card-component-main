@@ -130,6 +130,7 @@ img {
     font-weight: 700;
     line-height: 1;
     padding: 25px 0;
+    width: 100%;
 }
 
 .product-description-flex span:last-of-type {
@@ -152,5 +153,18 @@ img {
 }
 
 @media (orientation: portrait) {
-    
+    img {
+        border-radius: 12px 12px 0 0;
+    }
+    .card {
+        grid-template-columns: 1fr;
+    }
+    .card-info {
+        padding: 20px;
+    }
+    .product-description-flex span:first-of-type  {
+        font-size: 2rem;
+        line-height: 1;
+        padding: 10px 0;
+    }
 }
