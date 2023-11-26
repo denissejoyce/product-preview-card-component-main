@@ -158,6 +158,7 @@ img {
     }
     .card {
         grid-template-columns: 1fr;
+        max-height: fit-content;
     }
     .card-info {
         padding: 20px;
