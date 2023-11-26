@@ -156,6 +156,9 @@ img {
     img {
         border-radius: 12px 12px 0 0;
     }
+    .attribution {
+        bottom: 3%;
+    }
     .card {
         align-items: flex-start;
         grid-template-columns: 1fr;
