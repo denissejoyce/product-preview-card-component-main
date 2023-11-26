@@ -158,14 +158,21 @@ img {
     }
     .card {
         grid-template-columns: 1fr;
-        max-height: fit-content;
+        height: 100%;
+        max-height: 640px;
     }
     .card-info {
         padding: 20px;
+    }
+    .description {
+        padding-bottom: 15px;
     }
     .product-description-flex span:first-of-type  {
         font-size: 2rem;
         line-height: 1;
         padding: 10px 0;
+    }
+    .product-pricing {
+        padding-bottom: 15px;
     }
 }
