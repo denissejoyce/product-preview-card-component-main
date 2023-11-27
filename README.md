@@ -11,7 +11,7 @@ Users should be able to:
 
 ### Links
 
-- Live: [Live Site here](https://lovely-dusk-414877.netlify.app/)
+- [Live](https://lovely-dusk-414877.netlify.app/)
 
 ### Built with
 
