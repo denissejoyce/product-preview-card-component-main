@@ -11,6 +11,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+    transition: 0.3 all ease;
 }
 
 body {
@@ -157,7 +159,7 @@ img {
         border-radius: 12px 12px 0 0;
     }
     .attribution {
-        bottom: 3%;
+        bottom: 2%;
     }
     .card {
         align-items: flex-start;
@@ -181,5 +183,17 @@ img {
     }
     .product-pricing p:first-of-type {
         font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 390px) {
+    img {
+        max-width: 330px;
+    }
+    .attribution {
+        bottom: 3%;
+    }
+    .card {
+        max-height: 586px;
     }
 }
