@@ -197,6 +197,12 @@ main {
 }
 
 @media (orientation: portrait) {
+    html body {
+        height: 100vh;
+    }
+    main {
+        height: 100vh;
+    }
     img {
         border-radius: 12px 12px 0 0;
     }
